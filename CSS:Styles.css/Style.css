@@ -1,6 +1,6 @@
 
 <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-h1 {font-size: 8vw;
+    h1 {font-size: 8vw;
         font-family: 'Abril Fatface', cursive;
         color: floralwhite; 
         text-align: center; 
@@ -43,7 +43,7 @@ h1 {font-size: 8vw;
         border-width: thin;
         
     }
- ul {list-style-type: none; 
+    ul {list-style-type: none; 
         text-align: center;
     }
     
@@ -68,9 +68,8 @@ h1 {font-size: 8vw;
     
     {box-sizing: border-box;
 }
-    body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+    body { margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
     .header {text-align: center;
