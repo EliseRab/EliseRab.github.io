@@ -1,0 +1,36 @@
+
+
+h1 {font-size: 8vw;
+    text-align: center;
+    color: floralwhite;
+    font-family: sans-serif;
+    font-weight: 100;
+    
+}
+   
+
+   
+
+    nav ul {list-style-type: none; 
+        text-align: center;
+        letter-spacing: 10px;
+        line-height: 0.8px;
+       font-family: sans-serif;
+    } 
+    
+    a {text-decoration: none; 
+        color: floralwhite;
+    }
+    
+    a:hover {
+        color:black;   
+    }
+    
+    li {display: inline; 
+        text-decoration: none;
+        font-size: 3vw; 
+    }
+
+
+    body {background-color: darkkhaki
+    }
