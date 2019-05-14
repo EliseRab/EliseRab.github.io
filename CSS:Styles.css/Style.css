@@ -33,7 +33,8 @@
         font-size: 3vw; 
     }
     
-    body {background-color: darkkhaki}
+    body {background-color: darkkhaki;}
+    <body style="font-family: sans-serif">
 
     img {display: block;
         margin-left: auto;
