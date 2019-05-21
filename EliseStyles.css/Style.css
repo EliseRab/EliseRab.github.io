@@ -1,17 +1,16 @@
 
 
-h1 {font-size: 10vw;
+    h1 {font-size: 10vw;
     color: floralwhite;
     font-family: sans-serif;
     font-weight: 100;
     line-height: 0.8;
     float: left;
-    margin-top: -1px;
-    
-}
+    margin-top: -1px;  
+    }
 
 
-h2 nav ul {list-style-type: none; 
+    h2 nav ul {list-style-type: none; 
         letter-spacing: 10px;
         font-family: sans-serif;
         font-weight: 100;
@@ -25,54 +24,28 @@ h2 nav ul {list-style-type: none;
         color: floralwhite;
     }
     
-    a:hover {
-        color:black;   
+    a:hover {color:black;   
     }
     
-    li {display: inline; 
-        text-decoration: none;
-        font-size: 3vw; 
-    }
-
-ul li2 {font-family: sans-serif;
-    color: floralwhite;
-    font-size: 2.5vw;
-    list-style: none;
-    text-align: right;
-    float: right;
-    
-}
-
     body {background-color: darkkhaki
     }
 
- p {color: floralwhite;
+    p {color: floralwhite;
     font-size: 2.5vw;
     text-align: center;
     }
     
-    a:hover {
-        color:black;   
-    }
+  
     
-    a {text-decoration: none; 
-        color: floralwhite;
-    }
-    
+ 
     li {display: inline; 
         text-decoration: none;
         font-size: 3vw; 
     }
     
- body {background-color: darkkhaki
+    body {background-color: darkkhaki;
     }
     
-    {box-sizing: border-box;
-}
-    body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
+    
 
         
