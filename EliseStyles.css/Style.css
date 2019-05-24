@@ -20,6 +20,11 @@
         margin-top: -10px;
         margin-left: 10px;
     } 
+
+    h3 img {clear:both;
+        float: right;
+        margin-top: -230px;
+    }
     
     a {text-decoration: none; 
         color:black;
@@ -36,22 +41,15 @@
     font-family: sans-serif;
     }
 
-    body img {clear: both;
-    
-    }
-  
-div img {
-    
-}
     
  
     li {display: inline; 
         text-decoration: none;
         font-size: 3vw; 
     }
+
+
     
-    body {background-color:floralwhite;
-    }
     
     
 
