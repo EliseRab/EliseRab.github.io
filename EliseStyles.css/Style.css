@@ -29,11 +29,6 @@
         justify-content: space-between;
     }
 
-h4 {font-size: 5vw;
-    font-family: sans-serif;
-    font-weight: 100;
-    float: right;
-}
     
     a {text-decoration: none; 
         color:black;
@@ -58,33 +53,46 @@ h4 {font-size: 5vw;
     }
 
 
-.row {display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-.column { flex: 25%;
-  max-width: 25%;
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
   padding: 0 4px;
+    clear: both;
 }
 
-.column img {margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 100%; /* IE 10 */
+  flex: 100%;
+  padding: 0 4px;
+    clear: both;
 }
 
-.column {
-    flex: 50%;
-    max-width: 50%;
-  }
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
 
-.column {
-    flex: 100%;
-    max-width: 100%;
-  }
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
 
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
 
     
     
