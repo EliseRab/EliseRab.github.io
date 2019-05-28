@@ -8,6 +8,7 @@
     line-height: 0.8;
     float: left;
     margin-left: 3px;
+    margin-right: 3px;
     }
 
 
@@ -46,8 +47,7 @@
 
 body img {float: right;
     width: 1700px;
-    position: sticky;
-    
+    position:static;
 }
 
 .row {
