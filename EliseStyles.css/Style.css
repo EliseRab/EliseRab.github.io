@@ -8,7 +8,7 @@
     line-height: 0.8;
     float: left;
     margin-left: 3px;
-    margin-right: 3px;
+    margin-right: 25px;
     }
 
 
@@ -22,6 +22,11 @@
         margin-left: 10px;
     } 
     
+    .bg {background-image: url(/EliseRab.github.io/file-path-examples/images/sharpened%20me.png);
+        height: 100%;
+        background-position: center;
+        
+    }
     
     a {text-decoration: none; 
         color:black;
@@ -45,19 +50,16 @@
         font-size: 3vw; 
     }
 
-body img {float:right;
-    width: 1700px;
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px 20px 20px 20px;
 }
 
-.grid-container {
-    display: inline;
-    grid-template-columns: auto;
-    padding: 7px;
-    margin-right: 3px;
-}
-
-.grid-item {padding: 100px;
-    clear: both;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 
