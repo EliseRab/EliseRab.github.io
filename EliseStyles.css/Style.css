@@ -45,7 +45,7 @@
         font-size: 3vw; 
     }
 
-body img {float:none;
+body img {float:right;
     width: 1700px;
 }
 
@@ -53,6 +53,7 @@ body img {float:none;
     display: inline;
     grid-template-columns: auto;
     padding: 7px;
+    margin-right: 3px;
 }
 
 .grid-item {padding: 100px;
