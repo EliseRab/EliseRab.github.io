@@ -58,7 +58,7 @@ body img {float:right;
 
 .grid-item {padding: 100px;
     clear: both;
-    align-items: center;
+    position: static;
 }
 
 
