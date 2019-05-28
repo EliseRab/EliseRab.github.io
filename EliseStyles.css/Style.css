@@ -20,13 +20,9 @@
         margin-top: -10px;
         margin-left: 10px;
     } 
-
-    h3 img {clear:both;
-        float:right;
-        margin-top: -650px;
-        border-left-style: solid;
-        border-left-color: black;
-        justify-content: space-between;
+    
+    h3 img {float: right;
+        clear: left;
     }
 
     
