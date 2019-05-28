@@ -10,10 +10,6 @@
     margin-left: 3px;
     }
 
-h1 img{float: right;
-    margin-top: -400px;
-}
-
 
     h2 nav ul {list-style-type: none; 
         letter-spacing: 10px;
@@ -48,6 +44,11 @@ h1 img{float: right;
         font-size: 3vw; 
     }
 
+body img {float: right;
+    width: 1700px;
+    position: sticky;
+    
+}
 
 .row {
   display: -ms-flexbox; /* IE 10 */
@@ -76,13 +77,15 @@ h1 img{float: right;
   border: none;
   outline: none;
   padding: 10px 16px;
-  background-color: #f1f1f1;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
 }
 
 .btn:hover {
-  background-color: #ddd;
+  background-color:floralwhite;
 }
 
 .btn.active {
@@ -90,6 +93,10 @@ h1 img{float: right;
   color: white;
 }
 
+p {font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
     
     
     
