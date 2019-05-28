@@ -9,8 +9,11 @@
     float: left;
     margin-left: 3px;
     margin-right: 25px;
+    margin-top: -15px;
     display: block;
     text-emphasis-color: white;
+    text-decoration-line: overline;
+    text-decoration-color: darkseagreen;
     }
 
 
@@ -20,7 +23,7 @@
         font-weight: 100;
         display:block;
         text-align: right;
-        margin-top: -10px;
+        margin-top: 10px;
         margin-left: 10px;
     } 
     
@@ -34,6 +37,8 @@ body, html{height: 100%;
         background-repeat: no-repeat;
         background-size: cover;
         overflow: visible;
+        border-top-style: solid;
+        border-top-color: darkseagreen;
     }
     
 .about {font-family: sans-serif;
