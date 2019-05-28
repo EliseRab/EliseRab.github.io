@@ -27,6 +27,7 @@
 body, html{height: 100%;
     margin: 0;
     clear: both;
+    position:relative;
 }   
 
 .bg {background-image: url(/EliseRab.github.io/file-path-examples/images/sharpened%20me.png);
