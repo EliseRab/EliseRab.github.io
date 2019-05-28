@@ -9,6 +9,8 @@
     float: left;
     margin-left: 3px;
     margin-right: 25px;
+    display: block;
+    text-emphasis-color: white;
     }
 
 
@@ -16,16 +18,22 @@
         letter-spacing: 10px;
         font-family: sans-serif;
         font-weight: 100;
-        display: block;
+        display:block;
         text-align: right;
         margin-top: -10px;
         margin-left: 10px;
     } 
     
-    .bg {background-image: url(/EliseRab.github.io/file-path-examples/images/sharpened%20me.png);
+body, html{height: 100%;
+    margin: 0;
+    clear: both;
+}   
+
+.bg {background-image: url(/EliseRab.github.io/file-path-examples/images/sharpened%20me.png);
         height: 100%;
         background-position: center;
-        
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     a {text-decoration: none; 
