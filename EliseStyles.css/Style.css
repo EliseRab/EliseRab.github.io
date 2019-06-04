@@ -12,8 +12,6 @@
     margin-top: -15px;
     display: block;
     text-emphasis-color: white;
-    text-decoration-line: overline;
-    text-decoration-color: darkseagreen;
     }
 
 
@@ -37,8 +35,6 @@ body, html{height: 100%;
         background-repeat: no-repeat;
         background-size: cover;
         overflow: visible;
-        border-top-style: solid;
-        border-top-color: darkseagreen;
     }
     
 .about {font-family: sans-serif;
