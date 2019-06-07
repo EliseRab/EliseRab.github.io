@@ -31,10 +31,10 @@ body, html{height: 100%;
 
 .bg {background-image: url(/EliseRab.github.io/file-path-examples/images/sharpened%20me.png);
         height: 100%;
-        background-position: bottom;
+        background-position: right;
         background-repeat: no-repeat;
         background-size: cover;
-        overflow: visible;
+        
     }
     
 .about {font-family: sans-serif;
