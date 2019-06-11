@@ -77,15 +77,14 @@ body, html{height: 100%;
   float: left;
   width: 30%;
   padding: 20px;
-    object-fit: cover;
 }
 
 .row::after {
   content: "";
   clear: both;
   display: table;
-    object-fit: cover;
 }
+
 
 
     
